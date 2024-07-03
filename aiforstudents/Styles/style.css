@@ -3,65 +3,82 @@ html{
     padding: 0px;
 }
 
-body{
-    width: 1920px;
-    margin: 0 auto;
+main{
+    width: 1200px;
+    padding-top: 50px;
+    display: flex;
+    margin: auto;
 }
 
 header{
     background-color: lightskyblue;
+    width: 100%;
+    display: flex;
 }
 
+#spacer{
+    width: 300px;
+    height: 300px;
+}
 
+#titlenav{
+    margin: auto;
+}
 
 header img{
-    float: left;
     border-radius: 100%;
-    width: 190px;;
-    margin: 40px;
+    width: 200px;
+    margin: 50px;
 }
 
 
 header h1{
-    text-align: center;
     color: aliceblue;
-    width: 300px;
-    padding: 100px 0 0 0;
-    float: left;
-    margin: none;
+    text-align: center;
+    margin-top: 0;
 }
 
 nav{
     width: 500px;
-    float: left;
 }
 
 nav ul{
     list-style-type: none;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
     padding: 0;
-    margin: 0;
+    overflow: hidden;
 }
 
 nav li{
     display: inline-block;
-    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    width: 100px;
 }
 
 nav li a{
-    padding: 20px 40px;
-    width: 40%;
     color: white;
 }
 
 nav li a:hover{
-    background-color: darkgreen;
+    background-color:darkgrey;
 }
 
-#body{
-    clear: both;
+main p{
+    background-color: lightskyblue;
+    color: white;
+    padding: 16px;
+    margin: 16px 75px 16px 0px;
 }
 
-p{
-    float: left;
-    padding: 2%;
+main img{
+    margin: 16px 0;
+}
+
+*\.curve{
+    height: 75px;
+    width: 300px;
+    background-color: skyblue;
+    border-radius: 0 100% 0 100%;
+}*\
