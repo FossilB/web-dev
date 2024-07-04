@@ -1,15 +1,22 @@
 body{
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
 }
 
 header{
     width: 100%;
     background-color: aquamarine;
+    padding-top: 20px;
     margin: 0;
 }
 
-nav h1{
-    margin: 0;
+header h1{
+    margin: 0 0 20px 0;
+    font-family: 'Inter';
+    font-size: 50px;
+    text-align: center;
+
 }
 
 nav ul{
@@ -26,6 +33,7 @@ nav li{
 
 nav li a{
     text-decoration: none;
+    font-size: 19px;
     padding: 20px 50px;
     margin: 0;
 }
