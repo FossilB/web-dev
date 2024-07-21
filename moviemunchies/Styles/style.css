@@ -1,96 +1,23 @@
-body{
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-size: 22px;
+body {
+   width: 1400px; 
+   margin: auto;
 }
 
-header{
-    width: 100%;
-    background-color: aquamarine;
-    padding-top: 20px;
-    margin: 0;
+header {
+    display: flex;
 }
 
-header h1{
-    margin: 0 0 20px 0;
-    font-family: 'Inter';
-    font-size: 50px;
-    text-align: center;
-
-}
-
-nav ul{
-    margin: 0;
+nav ul {
+    display: flex;
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
-nav li{
-    padding: 20px 50px;
+nav li {
+    justify-content: space-between;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
-    font-size: 19px;
-    padding: 20px 50px;
-    margin: 0;
 }
-
-nav li a:hover{
-    background-color: blueviolet;
-    color: aliceblue;
-}
-
-main{
-    width: 1200px;
-    margin: auto;
-    border: 1px solid black;
-    padding: 5px;
-    display: flex;
-}
-
-.container{
-    height: 300px;
-    width: 500px;
-    margin: auto;
-    display: flex;
-}
-
-.container img{
-    width: 500px;
-    border-radius: 70% 30%;
-}
-
-.rectangle{
-    background-color: black;
-    position: absolute;
-    opacity: 0.5;
-    border-radius: 70% 30%;
-    width: 500px;
-    height: 300px;
-}
-
-.triangledown{
-    height: 0;
-    width: 0;
-    border-top: 100px solid white;
-    border-right: 500px solid transparent;
-    opacity: 0.5;
-    position: absolute; 
-}
-
-.triangleup{
-    height: 0;
-    width: 0;
-    border-bottom: 300px solid white;
-    border-left: 500px solid transparent;
-    opacity: 0.5;
-    position: absolute;
-}
-
-/* 
-Movies page
-/*
 
