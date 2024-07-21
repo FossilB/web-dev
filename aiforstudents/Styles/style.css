@@ -76,9 +76,9 @@ main img{
     margin: 16px 0;
 }
 
-*\.curve{
+.curve{
     height: 75px;
     width: 300px;
     background-color: skyblue;
     border-radius: 0 100% 0 100%;
-}*\
+}
