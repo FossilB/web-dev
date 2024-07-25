@@ -1,6 +1,7 @@
 body {
    width: 1400px; 
    margin: auto;
+   background-color: rgb(0, 0, 0, 0.5);
 }
 
 header img {
@@ -11,6 +12,7 @@ header img {
 
 nav {
     background-color: rgb(0, 0, 0, 0.7) ;
+    text-align: center;
 }
 
 nav ul {
@@ -33,7 +35,7 @@ nav li a {
 }
 
 nav li:hover {
-    background-color: rgb(0, 255, 0, 0.1);
+    color: crimson;
 }
 
 .curve {
@@ -42,4 +44,19 @@ nav li:hover {
     background-image: linear-gradient(to top, rgb(255, 255, 255, 0), rgb(0, 0, 0, 0.68));
     border-radius: 0 0 100% 0;
 }
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.gallery img {
+    height: 300px;
+}
+
+.gallery a:hover {
+    background-color: crimson;
+}
+
 

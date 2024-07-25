@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Styles/style.css" type="text/css" rel="stylesheet">
     <title>template</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/> 
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> 
 </head>
 <body>
     <header>
-        <img src="Resources/final_logo.png" alt="Logo">
         <nav>
+            <img src="Resources/final_logo-removebg-preview.png" alt="Logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="movies.html">Movies</a></li>
@@ -21,8 +25,16 @@
 
         </div>
     </header>
+    <section class="gallery">
+        <a data-fancybox="gallery" href="Resources/badboys.jpg"><img src="Resources/badboys.jpg"></a>
+        <a data-fancybox="gallery" href="Resources/castaway.jpeg"><img src="Resources/castaway.jpeg"></a>
+        <a data-fancybox="gallery" href="Resources/danceswithwolves.jpg"><img src="Resources/danceswithwolves.jpg"></a>
+        <a data-fancybox="gallery" href="Resources/fifthelement.jpg"><img src="Resources/fifthelement.jpg"></a>
+        <a data-fancybox="gallery" href="Resources/memyselfandirene.jpg"><img src="Resources/memyselfandirene.jpg"></a>
+        <a data-fancybox="gallery" href="Resources/shawshankredemption.jpeg"><img src="Resources/shawshankredemption.jpeg"></a>
+    </section>
     <footer>
-
+        
     </footer>
 </body>
 </html>
