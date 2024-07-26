@@ -84,6 +84,7 @@ article {
     grid-column: 1 / 8;
     width: 100vw;
     height: 500px;
+    width: 1400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,8 +99,8 @@ article {
   
   div.item {
     position: absolute;
-    width: 300px;
     height: 400px;
+    width: 250px;
     background-color: coral;
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
@@ -111,24 +112,38 @@ article {
   
   div.item:nth-of-type(1) {
     --offset: 1;
-    background-image: url("Resources/badboys.jpg");
-    background-color: #cccccc;
+    background-image: url("../Resources/badboys.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
   }
   div.item:nth-of-type(2) {
     --offset: 2;
-    background-color: #ff70a6;
+    background-image: url("../Resources/castaway.jpeg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
   }
   div.item:nth-of-type(3) {
     --offset: 3;
-    background-color: #ff9770;
+    background-image: url("../Resources/danceswithwolves.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
   }
   div.item:nth-of-type(4) {
     --offset: 4;
-    background-color: #ffd670;
+    background-image: url("../Resources/fifthelement.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
   }
   div.item:nth-of-type(5) {
     --offset: 5;
-    background-color: #e9ff70;
+    background-image: url("../Resources/memyselfandirene.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
   }
   
   input:nth-of-type(1) {
